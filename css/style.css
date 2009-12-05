@@ -1,0 +1,179 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: GillSans, Calibri, Trebuchet, sans-serif;
+	background: url('../images/bg.jpg') no-repeat fixed center;
+}
+
+a {
+	color: #9f1c21;	
+}
+
+a img {
+	border: none;
+}
+
+h2 {
+	font-family: Trebuchet, Tahoma, Arial, sans-serif;
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+h3+p {
+	padding-top: 0.5em;
+}
+
+ul {
+	list-style-position:inside;
+	list-style-image: url('../images/favicon.ico');
+	padding-bottom: 1em;
+}
+
+li {
+	padding-bottom: .5em;
+}
+#wrapper {
+	width: 940px;
+	margin: auto;
+}
+
+#header {
+
+}
+#logo {
+	float: left;
+}
+
+#subhead {
+	float: right;
+	padding-top: 50px;
+	font-size: 1.5em;
+	text-align: right;
+}
+
+.title {
+	color: #9f1c21;
+	font-weight: 500;
+}
+#register {
+	background-image: url('../images/registration25.png');
+	line-height: 56px;
+	width: 228px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	display: block;
+	color: white;
+	text-indent: -1000px;
+	text-align: left;
+	float: right;
+}
+
+#main {
+}
+
+#tab-buttons {
+	margin: auto;
+	width: 800px;
+	padding-bottom: 50px;
+}
+#about {
+	display: block;	
+}
+
+#about-button, #registration-button {
+	opacity: 1.0;
+	border-bottom: 5px solid #9f1c21;
+	margin-left: 0px;
+}
+
+#speakers, #music, #schedule, #faq {
+	display: none;
+}
+
+#speakers-button, #music-button, #schedule-button, #faq-button {
+	opacity: 0.3;
+}
+
+#sponsors {
+	float: right;
+}
+
+#about-text {
+	width: 540px;
+	padding-top: 1em;
+}
+
+#heather {
+	width: 460px;
+	padding-top: 1em;
+}
+
+#ralph {
+	float: right;
+	width: 460px;
+	padding-top: 1em;
+}
+
+#music img {
+	margin-right: 40px;
+	padding-right: 0px;
+}
+
+#grace {
+	padding-top: 1em;
+}
+
+#soundwave {
+	padding-top: 2em;
+}
+
+#schedule table {
+	width: 100%;
+	margin: 1em auto;
+}
+
+#schedule table th {
+	border-bottom: 3px solid #9f1c21;
+}
+
+#schedule table td {
+	border-bottom: 1px solid #ccc;
+	padding: .3em 1em;
+	text-align: center;
+}
+
+table.breakout td {
+	border: 1px solid #ccc;
+}
+
+#schedule table tr:hover {
+	color: #9f1c21;
+}
+
+.button {
+	float: left;
+	margin-left: 50px;
+	border-bottom: 1px solid #9f1c21;
+	cursor: pointer;
+}
+
+.button h2 {
+	font-size: 1.75em;
+}
+
+.left {
+	float: left;
+}
+
+img.left {
+	padding-right: 10px;
+}
+
+.clear {
+	clear: both;
+}
